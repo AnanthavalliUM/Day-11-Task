@@ -43,8 +43,8 @@
  height:70%;
  padding: 50px;
  font-size: 1em;
- /* display: flex;
- flex-direction: column; */
+ display: flex;
+ flex-direction: column;
  margin: 50px;
  justify-content: center;
  align-items: center;
@@ -52,7 +52,8 @@
 .label-container{
   width:100%;
   display: flex;
-  margin:5px;
+  flex-wrap: wrap;
+   margin:5px;
   padding:5px;
   justify-content: center;
   align-items: center;
